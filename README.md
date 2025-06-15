@@ -36,6 +36,12 @@ O objetivo é ter um lugar organizado para acompanhar minha evolução e, quem s
 2. Clone o repositório:
 
 ```bash
-git clone https://github.com/seu-usuario/estudos-python.git
-cd estudos-python
-python nome_do_arquivo.py
+git clone https://github.com/Raoni-Silla/EstudosPython.git
+
+
+## 💻 Como Executar os Códigos
+
+1. Tenha o Python instalado (recomendo a versão 3.x).  
+2. Clone o repositório:
+
+
