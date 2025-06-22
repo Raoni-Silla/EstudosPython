@@ -1,0 +1,4 @@
+ordem de precedência em python () > ** > * / // % > + -
+// = divisão inteira
+/ = divisão
+% = resto da divisão
