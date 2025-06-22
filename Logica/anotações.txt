@@ -4,3 +4,8 @@ ordem de precedência em python () > ** > * / // % > + -
 % = resto da divisão
 pow (4,3)
 81 ** (1/2) raiz quadrada
+{:20} - Alinha o texto à esquerda em 20 espaços.
+{:>20} - Alinha o texto à direita em 20 espaços.
+{:^20} - Centraliza o texto em 20 espaços.
+{:=^20} - Centraliza o texto em 20 espaços e preenche os espaços vazios com o caractere "=".
+end='' - Usado na função print() para especificar o que deve ser impresso após o texto, em vez da quebra de linha padrão. Por exemplo, end=' ' imprime um espaço em vez de uma nova linha.
