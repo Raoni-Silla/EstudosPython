@@ -2,3 +2,5 @@ ordem de precedência em python () > ** > * / // % > + -
 // = divisão inteira
 / = divisão
 % = resto da divisão
+pow (4,3)
+81 ** (1/2) raiz quadrada
