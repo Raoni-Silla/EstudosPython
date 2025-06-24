@@ -17,3 +17,6 @@ porem se eu quiser fazer algo mais especifico com ele, vou ter que importar algu
 o import importa todas as funcionalidades da biblioteca, se quiser importar somente uma funcionalidade especifica o comando fica
 from bibliotceca import funcionalidade
 import biblioteca
+quando se da import math, ela importa um metodo/biblioteca que dentro dela vai ter funcionalidades a mais
+tem comandos como
+import math tem > ceil (arredonda pra cima), floor (arredonda pra baixo), trunc (elimina da virgula pra frente), pow (potencia**), sqrt(raiz quadrada) e tem a factorial ()
