@@ -9,3 +9,11 @@ pow (4,3)
 {:^20} - Centraliza o texto em 20 espaços.
 {:=^20} - Centraliza o texto em 20 espaços e preenche os espaços vazios com o caractere "=".
 end='' - Usado na função print() para especificar o que deve ser impresso após o texto, em vez da quebra de linha padrão. Por exemplo, end=' ' imprime um espaço em vez de uma nova linha.
+{:.2f} = formata o numero real que esta aqui a ter 2 casas decimais apos a virgula
+pra importar bibliotecas em python se usa import, o import importa todos os recursos da biblioteca
+bibliotecas são como peças pra um carro novo, eu comprei um carro e ele vem com itens padrões, ele funciona bem e faz tudo bem
+porem se eu quiser fazer algo mais especifico com ele, vou ter que importar alguns itens a mais
+
+o import importa todas as funcionalidades da biblioteca, se quiser importar somente uma funcionalidade especifica o comando fica
+from bibliotceca import funcionalidade
+import biblioteca
