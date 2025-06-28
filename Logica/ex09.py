@@ -13,5 +13,8 @@ frase = frase.replace('video','urso')
 print(frase)
 print('curso' in frase)
 print(frase.lower().find('video'))
-
+print(frase.split())
+divido = frase.split()
+print(divido [0])#mostra o primeiro item da lista
+print(divido[2][2])#pega o dividio 2 e mostra a segunda letra
 
