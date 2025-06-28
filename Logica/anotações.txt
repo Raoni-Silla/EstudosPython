@@ -20,3 +20,37 @@ import biblioteca
 quando se da import math, ela importa um metodo/biblioteca que dentro dela vai ter funcionalidades a mais
 tem comandos como
 import math tem > ceil (arredonda pra cima), floor (arredonda pra baixo), trunc (elimina da virgula pra frente), pow (potencia**), sqrt(raiz quadrada) e tem a factorial ()
+
+Manipulação de strings:
+'Curso em video python'
+frase = 'curso em video python'
+o python cria mini espaços dentro da memoria do pc pra cada uma das letras, até o espaço
+recebendo um indice, como um vetor em c++,
+Fatiamento:
+é conseguir pedaços dela
+frase[9]->identificador de lista "[]"
+[9] imprime só a letra 9 - 'v'
+o python diferencia maisculas de minusculas
+frase [9:13]-> 9 é o v e o 13 é o 'o', ele começa no 9 e vai até o 13 excluindo o 13, sempre um a menos no fim
+frase [9:21:2]-ele começa no 9 para no 20 pulando sempre 2 letras
+frase[:5]->quando nao se poe aonde ele vai começar, ele começa do caractere 0 seria o mesmo [0:5]
+frase [15:]->indica o inicio e não sabe o final, vai do inicio até o final
+frase [9::3]->começa no 9 pulando 3 casas até o final
+análise:
+len(frase)-tamanho da frase = 21 caracteres
+frase.count('o')->python conta quantas vezes aparece a letra 'o' minuscula
+frase.count('o',0,13)->conta do 0 até o 12 contando os 'o'
+frase.find ('deo')->quantas vezes ele achou 'deo', ele diz em que momento começou o deo
+frase.find ('android')-> se ele nao achar ele retorna o valor -1
+'curso' in frase -> existe a palavra curso na variavel frase, ele retorna true ou false
+transformação:
+frase.replace('python','android')-> aonde tiver python ele troca por android, não substitui diretamente na string
+frase.upper() maiusculo
+frase.lower() minusculo
+frase.capitalize()joga todas as letras pra minusculo e só o primeiro caractere fica em maiusculo
+frase.strip()remove todos os espaços do inicio e fim da string
+frase.rstrip()remove todos os espaços da direita
+frase.lstrip()remove todos os espaços da esquerda
+divisão:
+frase.split()->tem muitas funcionalidades, uma delas é dividir suas strings nos espaços, criando uma lista de strings
+'-'.join(frase), junta todos os elementos de frase usando o separador - curso-em-video-python
