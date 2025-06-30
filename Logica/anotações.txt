@@ -54,3 +54,25 @@ frase.lstrip()remove todos os espaços da esquerda
 divisão:
 frase.split()->tem muitas funcionalidades, uma delas é dividir suas strings nos espaços, criando uma lista de strings
 '-'.join(frase), junta todos os elementos de frase usando o separador - curso-em-video-python
+cores no terminal:
+ANSI escape sequence, funciona em varios ambientes, tudo dentro de ansi funciona com contra barra e um codigo
+um dos codigos pra cores existe o codigo 033
+\033[agora vem o codigo da cor m
+\033[style, text,back m estilo, texto cor, cor do fundo
+\033[0;33;44m
+pra estilo existem 0,1,4,7
+0 = none
+1 = bold
+4 = underline
+7=negative
+text
+30 branco
+31 vermelho
+32 verde
+33 amarelo
+34 azul
+35 roxo
+36 ciano
+37 cinza
+back
+40 - 47 são as mesmas cores de text

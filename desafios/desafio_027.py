@@ -1,0 +1,15 @@
+kmh = float (input('Digite a velocidade do carro em km/H: '))
+multa = 7.00 * (kmh - 80)
+print(type (multa))
+nome = str (input('Digite seu nome: '))
+nomeCarro = str (input('Digite o nome do carro: '))
+placa = str (input('Digite a placa do carro'))
+if kmh > 80:
+    print('-=-' * 20)
+    print('você {} dono do carro {} de placa {} foi multado'.format(nome,nomeCarro,placa))
+    print('valor da multa R$: {}'.format(multa))
+    print('-=-' * 20)
+else:
+    print('-'*20)
+    print('dentro das normas, tudo correto!<3')
+    print('-'*20)
