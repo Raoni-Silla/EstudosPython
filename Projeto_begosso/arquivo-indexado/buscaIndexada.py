@@ -1,6 +1,4 @@
 
-
-
 class indice:
     def __init__(self, codigo, posicao):
         self.esquerda = None
@@ -29,10 +27,6 @@ def busca (codigo, raiz):
           raiz = raiz.direita
     print("codigo não encontrado")
     return None
-
-
-
-
 
 
 def main ():
