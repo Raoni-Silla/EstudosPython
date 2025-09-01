@@ -8,8 +8,6 @@ with open('Cidades.txt', 'r', encoding='utf-8') as cidades:
         # Remove quebras de linha/espacos extras e separa os valores por vírgula achada
         dados = linha.strip().split(',')
 
-        # Monta um dicionário representando a cidade
-        #
         cidade = {
             'codigo': dados[0],
             'descricao': dados[1],
