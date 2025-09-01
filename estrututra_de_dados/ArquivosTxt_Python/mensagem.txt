@@ -1,0 +1,11 @@
+Ler arquivo TXT em Python
+
+Para ler um arquivo TXT em Python, você precisa usar um método de leitura, que pode ser o read. Há mais uma opção, como veremos a seguir, mas a princípio vamos apenas falar da ideia geral.
+
+A leitura de um arquivo consiste em tentar extrair as informações presentes no arquivo para trazer para a memória. Então, com outros métodos, é possível manipular como o programador deseja, seja separar linha por linha, seja separar com base em algum marcador separador, seja pegar cada palavra, etc.
+
+A ideia é extrair as informações e jogar em algum variável ou dispô-las na tela.
+
+Isso pode ser muito útil em várias aplicações. Uma delas, por exemplo, é para testar modelos de inteligência artificial. Você pode fazer isso para testar sistemas de recomendação ou sistemas de processamento de linguagem natural (PLN).
+
+No caso de aplicações de PLN, o programador pode escrever frases em um arquivo e depois importá-las no Python para facilitar e testar de fato como o modelo reage.
