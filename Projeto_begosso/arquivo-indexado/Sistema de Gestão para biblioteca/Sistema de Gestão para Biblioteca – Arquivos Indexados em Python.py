@@ -633,13 +633,11 @@ def menu_relatorios():
 # --- Função Principal ---
 
 def main():
-    # Esta é a função principal, onde o programa começa.
     print("Iniciando o sistema da biblioteca...")
 
-    # Usamos 'global' para modificar as árvores de índice que estão fora da função.
     global raiz_cidades, raiz_cursos, raiz_autores, raiz_categorias, raiz_alunos, raiz_livros, raiz_emprestimos
 
-    # Carrega todos os índices dos arquivos para a memória no início.
+    # Carrega todos os índices no início
     raiz_cidades = carregar_indices(arquivo_cidades)
     raiz_cursos = carregar_indices(arquivos_cursos)
     raiz_autores = carregar_indices(arquivo_autores)
@@ -648,7 +646,6 @@ def main():
     raiz_livros = carregar_indices(arquivos_livros)
     raiz_emprestimos = carregar_indices(arquivos_emprestimos)
 
-    # Este 'while True' cria o menu que fica rodando sem parar.
     while True:
         print("\n" + "=" * 10 + " MENU PRINCIPAL DA BIBLIOTECA " + "=" * 10)
         print("1. Gerenciar Alunos")
@@ -663,29 +660,28 @@ def main():
 
         opcao = input(">> Escolha uma opção: ")
 
-        if opcao == '1':
-            gerenciar_alunos()
-        elif opcao == '2':
-            gerenciar_livros()
-        elif opcao == '3':
-            gerenciar_cidades()
-        elif opcao == '4':
-            gerenciar_cursos()
-        elif opcao == '5':
-            gerenciar_autores()
-        elif opcao == '6':
-            gerenciar_categorias()
-        elif opcao == '7':
-            gerenciar_emprestimos()
-        elif opcao == '8':
-            menu_relatorios()
-        elif opcao == '0':
-            print("Encerrando o sistema. Até logo!")
-            break  # Encerra o loop e o programa
-        else:
-            print("Opção inválida. Tente novamente.")
-
-
+        match opcao:
+            case '1':
+                gerenciar_alunos()
+            case '2':
+                gerenciar_livros()
+            case '3':
+                gerenciar_cidades()
+            case '4':
+                gerenciar_cursos()
+            case '5':
+                gerenciar_autores()
+            case '6':
+                gerenciar_categorias()
+            case '7':
+                gerenciar_emprestimos()
+            case '8':
+                menu_relatorios()
+            case '0':
+                print("Encerrando o sistema. Até logo!")
+                break
+            case _:
+                print("Opção inválida. Tente novamente.")
 # Esta linha especial garante que a função main() só vai rodar quando
 # executamos este arquivo diretamente.
 if __name__ == "__main__":
